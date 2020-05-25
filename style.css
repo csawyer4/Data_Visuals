@@ -21,6 +21,17 @@ h2 {
   color: #999;
 }
 
+#pop {
+  font-family: serif;
+  text-align: center;
+  margin: 30px;
+}
+
+#pty {
+  font-family: serif;
+  text-align: center;
+  margin: 30px;
+}
 a {
   margin-top: 50px;
   display: block;
@@ -29,4 +40,8 @@ a {
 
 canvas {
   margin-bottom: 20px;
+}
+
+html {
+  background-color:  #f2f2f2;
 }

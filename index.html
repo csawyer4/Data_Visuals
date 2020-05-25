@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lab 5 Exercises</title>
+      <title>Data Visualizations</title>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js'></script>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+
   <body>
     <div class="wrapper">
-      <h1>World population over time</h1>
+      <h1>World Population Over Time</h1>
       <h2>Number of people (in millions) living on earth, the last 500 years</h2>
 
-
     </div>
-
-    <script src="script.js"></script>
+    <canvas id="myChart" width="1600" height="900"></canvas>
+      <p id='pop'>Human population has increased over time and is expected to continue to increase by 2050. From the 1500's to the 1800's there was little change to population, with the expection of Asia that went from 282 million people to over 600 million people. From the 1800's to the 1950's many populations boomed. Many populations more than doubled, including North America going from 7 million people to 172 million people. From the 1950's to 2050 all populations will continue to increase. Asia and Africa are expected to increase more so than other populations.
+      </p>
+    <div class="wrapper">
+      <h1>Pokemon Types</h1>
+      <h2>Number of Pokemon in each Elemental Category</h2>
+    </div>
+    <canvas id="PokeBar" width="1600" height="900"></canvas>
+      <p id="pty">The types are based around 18 different elemental categories. The different properties of the pokemon determine their type. Pokemon can actyually have more than one type. Their type determines their looks and their moves, although their moves are designed to only manifest one type. The effectiveness of their moves is based on that Pokemons type and the opponent Pokemon type. For example, Bulbasaur is a Grass type and a Poison type. It learns moves like Vine Whip(grass) and Poison Powder(poison). Grass moves are effective against water, ground, and rock Pokemon types, and less so for bug, fire, and steel Pokemon types. Poison moves are effective against grass and fairy Pokemon, but less so for poison and ghost Pokemon.
+      </p>
+      <script src="scripts.js"></script>
   </body>
   <!-- Thanks to Tobias Ahlin, whose chart.js tutorial forms the basis of the line graph portion of this exercise -->
 </html>
